@@ -7,11 +7,9 @@ function map(arr,fun){
   return myArr ;
 }
 function reduce(fun,arr,start=0){
-  if (!!start){
-    r=start
-  }else{
-    r=arr[0]
+  let sum=start;
+  for(let i=0;i<arr.length;i++){
+    sum=fun(sum,arr[i]);
   }
-  
   return sum ;
 }
