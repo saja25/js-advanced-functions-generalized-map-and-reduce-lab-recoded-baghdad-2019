@@ -6,8 +6,8 @@ function map(arr,fun){
   }
   return myArr ;
 }
-function reduce(fun,arr,start=0){
-  let sum=start;
+function reduce(fun,arr,start){
+  let sum=(!!star)?start:
   for(let i=0;i<arr.length;i++){
     sum=fun(sum,arr[i]);
   }
