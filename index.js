@@ -10,7 +10,7 @@ function reduce(fun,arr,start){
   let sum=(!!start)?start:arr[0] ;
   let i=(!!start)?0:1 ;
   for(;i<arr.length;i++){
-    sum=fun(sumarr[i],);
+    sum=fun(arr[i],sum);
   }
   return sum ;
 }
