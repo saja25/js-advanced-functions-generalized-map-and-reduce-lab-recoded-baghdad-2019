@@ -12,5 +12,6 @@ function reduce(fun,arr,start=0){
   }else{
     r=arr[0]
   }
+  
   return sum ;
 }
