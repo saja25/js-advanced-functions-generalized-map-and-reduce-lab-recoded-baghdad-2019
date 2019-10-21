@@ -7,6 +7,6 @@ function map(arr,fun){
   return myArr ;
 }
 function reduce(fun,arr,start=0){
-  let sum
+  let sum=(!!start)
   return sum ;
 }
