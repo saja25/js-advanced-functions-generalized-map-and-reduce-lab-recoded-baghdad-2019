@@ -10,7 +10,7 @@ function reduce(fun,arr,start=0){
   if (!!start){
     r=start
   }else{
-    
+    r=arr[0]
   }
   return sum ;
 }
